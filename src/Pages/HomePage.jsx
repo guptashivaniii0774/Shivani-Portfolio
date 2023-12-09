@@ -2,7 +2,6 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 AOS.init();
 import homePageImage from '../Images/animation-bg.gif'
 import DownloadPDF from '../Images/Shivani_Gupta_Frontend.pdf'
@@ -16,7 +15,7 @@ const HomePage = () => {
         <div className="section-01 " >
           <h2>  Hello There  , </h2>
           <h1>My Name is Shivani Gupta </h1>
-          <h3>I am a   <TypeAnimation
+          <h3>I am a   <TypeAnimation className='TypeAnimation'
             sequence={[
               ' Web Developer',
               1000,
@@ -25,7 +24,6 @@ const HomePage = () => {
             ]}
             wrapper="span"
             speed={50}
-            style={{ color: "#12486B", fontSize: "30px" }}
             repeat={Infinity}
           />
           </h3>
