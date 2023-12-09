@@ -467,7 +467,7 @@ button a {
   font-size: 25px;
 }
 .section-01 h1{
-  font-size: 23px;
+  font-size: 20px;
 }
   
 }
@@ -666,7 +666,7 @@ padding: 20px;
 
 .study:hover {
   width: 90%;
-  height: 120px;
+  min-height: 120px;
   transition: 0.2s all ease-in-out;
   color: white;
   background-color: #0f044c61;
