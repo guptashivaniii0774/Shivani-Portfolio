@@ -350,7 +350,7 @@ li {
 }
 
 .contact .icon-main {
-  display: block;
+  display: flex;
   transform-origin: center center;
   transition: transform 0.3s ease-in-out;
 
@@ -456,12 +456,16 @@ button a {
   .homepage {
     padding: 0px;
   }
+  .contact {
+    font-size: 13px;
+   
+  }
   
 .section-01 h3 .TypeAnimation{
   font-size: 25px;
 }
 .section-01 h1{
-  font-size: 25px;
+  font-size: 23px;
 }
   
 }
@@ -488,8 +492,8 @@ button a {
   }
 
   .parent {
-    position: absolute;
-    top: 90%;
+    position: relative;
+    top: 0;
     right: 0;
   }
   
@@ -509,7 +513,7 @@ button a {
   align-items: center;
   justify-content: center;
   background-color: #EEEEEE;
-
+padding: 20px;
 
 
 }
@@ -558,6 +562,27 @@ button a {
   width: 400px;
 }
 
+
+@media (max-width: 412px) {
+
+
+  .inbox {
+
+    padding: 20px;
+  }
+  .inbox h1 {
+    font-size: 25px;
+
+  }
+  
+  .inbox p {
+    font-size: 15px;
+
+  }
+
+
+}
+
 @media (max-width: 768px) {
   .about-me {
     flex-direction: column-reverse;
@@ -579,6 +604,8 @@ button a {
 
 
 }
+
+
 
 
 
@@ -666,6 +693,22 @@ button a {
   font-size: 18px;
 
 }
+@media (max-width: 412px) {
+
+
+  .edu-part02 h1 {
+    font-size: 25x;    }
+  
+  
+  }
+  
+.study-box-01 {
+width: auto;
+font-size: 30px;
+
+
+}
+
 
 @media (max-width: 768px) {
 
@@ -689,6 +732,8 @@ button a {
     min-height: auto;
 
   }
+
+    
 
 
 
@@ -753,6 +798,16 @@ button a {
 
 }
 
+@media (max-width: 412px) {
+
+
+
+  .skills h1 {
+      font-size: 25px;
+    }
+  
+  }
+
 @media (max-width: 768px) {
 
   .container {
@@ -767,6 +822,7 @@ button a {
   }
 
 }
+
 
 
 
@@ -848,6 +904,17 @@ flex-wrap: wrap;
 
 }
 
+@media (max-width:412px) {
+  
+  .services {
+    padding: 10px;
+  }
+  
+  .services h1 {
+font-size: 25px;
+  
+  }
+}
 
 @media (max-width:768px) {
   
@@ -857,9 +924,7 @@ flex-wrap: wrap;
 
 .service-box {
   width: 80%;
-
 }
-
 }
 
 
@@ -1028,10 +1093,12 @@ flex-wrap: wrap;
   transform: scale(0.95);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 412px) {
 
- 
-
+  .my-portfolio h1 {
+ font-size: 25px;
+  }
+  
 }
 
 
@@ -1049,19 +1116,17 @@ flex-wrap: wrap;
   align-items: center;
   background-color: #EEEEEE;
   padding: 50px;
-
 }
 
 .form {
   display: flex;
   width: 50%;
-  height: 80vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   color: #0F044C;
   padding: 50px;
   flex-direction: column;
+
 }
 
 .form-detail {
@@ -1074,7 +1139,7 @@ flex-wrap: wrap;
 }
 
 .input {
-  width: 100%;
+  width: 90%;
   height: 40px;
   padding: 10px;
   border-radius: 10px;
@@ -1086,7 +1151,7 @@ flex-wrap: wrap;
 }
 
 textarea {
-  width: 100%;
+  width: 90%;
   height: 150px;
   padding: 10px;
   border-radius: 10px;
@@ -1128,8 +1193,8 @@ textarea {
   animation: fly-1 0.6s ease-in-out infinite alternate;
 
 
+  
 }
-
 .form-btn:hover {
   background-color: #0f044c61;
   border: 2px solid #0F044C;
@@ -1162,7 +1227,7 @@ textarea {
 .form-img {
   display: flex;
   width: 50%;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1172,9 +1237,25 @@ textarea {
 .form-img img {
   width: 500px
 }
+
+@media (max-width: 412px) {
+  .contact-me {
+padding: 20px;
+  
+  }
+  .form-img img {
+    width: 350px
+  }
+  .form h1{
+    font-size: 25px;
+  }
+
+
+}
 @media (max-width: 768px) {
   .contact-me {
 flex-direction: column-reverse;
+
   
   }
   .form {
@@ -1193,9 +1274,6 @@ flex-direction: column-reverse;
   .form-img img {
     width: 400px
   }
-  
-  
- 
 
 }
 
@@ -1212,11 +1290,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   background-color: #787A91;
   color: white;
-
-
+text-align: center;
 }
 
 /* =============================================== */
