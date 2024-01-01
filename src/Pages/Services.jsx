@@ -11,20 +11,21 @@ const Services = () => {
   
 <div class="item" data-aos="fade-down">
           <FaCode />
-          <span class="text"> Web Development  </span>
-        </div>
-        <div class="item"data-aos="fade-down">
-          <FaLaptopCode />
-          <span class="text"> Web Appications </span>
-        </div>
-        <div class="item"data-aos="fade-down">
-          <FaPencilRuler />
-          <span class="text"> Banner Design </span>
+          <span class="text"> Website Designing  </span>
         </div>
         <div class="item " data-aos="fade-down">
           <FaCubes />
           <span class="text"> Ui / Ux </span>
         </div>
+        <div class="item"data-aos="fade-down">
+          <FaLaptopCode />
+          <span class="text"> Freelancing </span>
+        </div>
+        <div class="item"data-aos="fade-down">
+          <FaPencilRuler />
+          <span class="text"> Banner Design </span>
+        </div>
+    
 </div>
       </div>
 

@@ -204,8 +204,8 @@ li {
 
 .toggle {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   display: none;
   flex-direction: column;
@@ -223,28 +223,6 @@ li {
   transition-duration: .3s;
 }
 
-#chechoff{
-  display: none;
-}
-
-#checkbox:checked+.toggle #bar2 {
-  transform: translateY(14px) rotate(60deg);
-  margin-left: 0;
-  transform-origin: right;
-  transition-duration: .3s;
-  z-index: 2;
-}
-
-#checkbox:checked+.toggle #bar1 {
-  transform: translateY(28px) rotate(-60deg);
-  transition-duration: .3s;
-  transform-origin: left;
-  z-index: 1;
-}
-
-#checkbox:checked+.toggle {
-  transform: rotate(-90deg);
-}
 
 @media (max-width: 768px) {
   .right-side ul {
@@ -274,6 +252,10 @@ li {
   .toggle {
     display: flex;
   }
+  nav {
+  position: relative;
+  }
+  
 }
 
 
@@ -464,7 +446,7 @@ button a {
   }
   
 .section-01 h3 .TypeAnimation{
-  font-size: 25px;
+  font-size: 20px;
 }
 .section-01 h1{
   font-size: 20px;

@@ -17,9 +17,11 @@ const HomePage = () => {
           <h1>My Name is Shivani Gupta </h1>
           <h3>I am a   <TypeAnimation className='TypeAnimation'
             sequence={[
-              ' Web Developer',
+              ' Frontend Developer',
               1000,
               'Ui/Ux Designer ',
+              1000,
+              'Freelancer ',
               1000,
             ]}
             wrapper="span"
@@ -76,7 +78,6 @@ const HomePage = () => {
 
         </div>
         <div className="section-02">
-          {/* <img src={homePageImage} alt="Shivani Gupta Image" /> */}
           <img src={homePageImage} alt="Shivani Gupta Image" />
 
         </div>
